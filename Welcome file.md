@@ -168,6 +168,13 @@ stateDiagram-v2
     Moving --> Crash
     Crash --> [*]
 ```
+
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTU1MzY4M119
+eyJoaXN0b3J5IjpbMTcxNTgwMTc4OSwtOTE1NTUzNjgzXX0=
 -->
