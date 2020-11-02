@@ -151,7 +151,7 @@ stateDiagram-v2
     Moving --> Still
     Moving --> Crash
     Crash --> [*]
-  ```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMzY3MTE1XX0=
+eyJoaXN0b3J5IjpbNTg3Mjc4MDkxXX0=
 -->
